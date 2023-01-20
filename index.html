@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Challenge Alura</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <script src="logica.js"></script>
+    <header>
+      <img src="logoAlura.png" alt="Logo da Alura" />
+    </header>
+    <main>
+      <section>
+        <!--Criação do formulário para entrada do texto-->
+
+        <textarea
+          id="entradaTexto"
+          name="entradaTexto"
+          placeholder="Digite seu texto"
+          autofocus
+          required
+          cols="41"
+          rows="13"
+        ></textarea>
+
+        <div class="textoAviso">
+          <h6>Apenas letras e numeros sem acento.</h6>
+        </div>
+
+        <div class="botoesPrincipais">
+          <button onclick="codifica()" class="btn-cripto" type="button">
+            Criptografar
+          </button>
+          <button onclick="descodifica()" class="btn-descripto" type="button">
+            Descriptografar
+          </button>
+        </div>
+      </section>
+
+      <section>
+        <textarea
+          cols="19"
+          rows="16"
+          id="saidaTexto"
+          name="saidaTexto"
+          placeholder="Digite seu texto"
+        >
+        </textarea>
+      </section>
+    </main>
+  </body>
+</html>
