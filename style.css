@@ -97,6 +97,13 @@ button:hover {
 #saidaTexto:focus {
   outline: none;
 }
+footer {
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 2em;
+  margin-left: 300px;
+}
 @media screen and (max-width: 480px) {
   body {
     width: auto;
